@@ -22,7 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rockmania.jp" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rockmania_jp
 facebook_username: rockmania.jp
-instagram_username: rockmamia.jp
+instagram_username: rockmania.jp
 
 # Build settings
 markdown: kramdown
