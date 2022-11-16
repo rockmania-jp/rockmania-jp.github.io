@@ -1,0 +1,18 @@
+*.*~
+.DS_Store
+Thumbs.db
+
+# Jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+
+# Bundler
+.bundle/
+vendor
+
+# npm
+.env
+node_modules
+assets/js/bundle.js

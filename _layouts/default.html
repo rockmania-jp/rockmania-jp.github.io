@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <header>
+
+        <p>
+          <a href="/"><img src="/assets/img/logo.png" alt="Rockmania" /></a>
+        </p>
+
+        <div class="title">
+          <h1><p>ロックマニア ボルダリングジム</p></h1>
+
+          <div>
+            <blockquote class="message">ただ登るだけ、それが楽しいのです。</blockquote>
+          </div>
+        </div>
+
+      </header>
+
+      <section>
+
+        {{ content }}
+
+      </section>
+
+      <footer>
+
+        <div class="social-links">
+          <div class="social-link">
+            <a href="https://instagram.com/{{ site.instagram_username }}">
+              <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#instagram' | relative_url }}"></use></svg>Instagram
+            </a>
+          </div>
+          <div class="social-link">
+            <a href="https://www.twitter.com/{{ site.twitter_username }}">
+              <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#twitter' | relative_url }}"></use></svg>Twitter
+            </a>
+          </div>
+          <div class="social-link">
+            <a href="https://www.facebook.com/{{ site.facebook_username }}">
+              <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#facebook' | relative_url }}"></use></svg>Facebook
+            </a>
+          </div>
+        </div>
+
+        <p class="footer"><small>&copy; 2022 Rockmania Bouldering Gym</small></p>
+
+      </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="{{ "/assets/js/bundle.js" | relative_url }}"></script>
+
+  </body>
+</html>
