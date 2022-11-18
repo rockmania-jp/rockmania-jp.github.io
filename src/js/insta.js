@@ -1,7 +1,7 @@
 (function(document) {
 
-    const id = process.env.INSTA_APP_ID;
-    const token = process.env.INSTA_APP_TOKEN;
+    const id = process.env.FB_INSTA_ID;
+    const token = process.env.FB_ACCESS_TOKEN;
 
     const url = 'https://graph.facebook.com/v15.0/' + id + '?access_token=' + token + '&fields=name,media{caption,media_url,permalink,timestamp,username}'
 
