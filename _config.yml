@@ -23,6 +23,7 @@ url: "https://rockmania.jp" # the base hostname & protocol for your site, e.g. h
 twitter_username: rockmania_jp
 facebook_username: rockmania.jp
 instagram_username: rockmania.jp
+github_username:  rockmania-jp
 
 # Build settings
 markdown: kramdown
