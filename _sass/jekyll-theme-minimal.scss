@@ -351,7 +351,7 @@ ul.insta_list li a p span {
 
 h1.teaser {
   margin: 30px 0;
-  font-size: 3em;
+  font-size: 4em;
   line-height: 1;
   letter-spacing: -1px;
 }
@@ -433,6 +433,7 @@ h1.teaser {
 @media print, screen and (max-width: 480px) {
   body {
     padding:15px;
+    font: 13px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
   header div.title {
@@ -453,6 +454,13 @@ h1.teaser {
 
   ul.insta-list li {
     //width: 46%;
+  }
+}
+
+@media print, screen and (max-width: 370px) {
+  body {
+    padding:15px;
+    font: 12px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 }
 
