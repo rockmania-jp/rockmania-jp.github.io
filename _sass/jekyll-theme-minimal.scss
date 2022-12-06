@@ -10,15 +10,30 @@ body {
   font-weight:400;
 }
 
-h1, h2, h3 {
-  color:#222;
+h1, h2 {
   margin:0 0 20px;
+  color:#222;
+}
+
+h2 {
+  font-size:1.3em;
+  padding-bottom: 0.5em;
+  margin-bottom: 30px;
+  border-bottom: dotted 1px #e61019;
 }
 
 h3 {
-  margin-top: 40px;
+  color:#222;
   padding: 0.5em 0.5em;
   border-left: solid 5px #e61019;
+}
+
+div.space {
+  padding-top: 1px;
+}
+
+p.space {
+  padding-top: 1px;
 }
 
 h4, h5, h6 {
@@ -37,11 +52,24 @@ span.notice {
 }
 
 section h3 {
-  padding-top:10px;
+  //padding-top:10px;
 }
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
+}
+
+p.profile {
+  margin-bottom: 0px;
+}
+
+ul.profile {
+  padding-inline-start: 15px;
+}
+
+ul.profile li::marker {
+  //color: #e61019;
+  font-size: 70%;
 }
 
 h1, h2, h3 {
@@ -224,12 +252,16 @@ header div.box {
   margin-bottom:40px;
 }
 
-.message {
+blockquote.message {
   font-style:italic;
 }
 
 p.center {
   text-align:center;
+}
+
+p.right {
+  text-align:right;
 }
 
 p.map {
@@ -343,6 +375,10 @@ ul.insta_list li a p span {
   font-size: 100%;
 }
 
+.price {
+  text-align: right;
+}
+
 .teaser {
   margin: 40px auto 100px;
   max-width: 600px;
@@ -371,6 +407,11 @@ h1.teaser-message {
 
   header {
     #padding-right:320px;
+  }
+
+  blockquote.message {
+    padding-left:0px;
+    font-style:italic;
   }
 
   section {
@@ -413,6 +454,10 @@ h1.teaser-message {
     padding:0;
   }
 
+  header h1 {
+    font-size: 1.7em;
+  }
+
   header div.title {
     margin: 30px auto;
   }
@@ -431,9 +476,14 @@ h1.teaser-message {
 }
 
 @media print, screen and (max-width: 480px) {
+
   body {
     padding:15px;
     font: 13px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  header h1 {
+    font-size: 1.5em;
   }
 
   header div.title {
