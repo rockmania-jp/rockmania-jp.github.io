@@ -47,7 +47,7 @@ h5, h6 {
   margin:0px 0px;
 }
 
-span.notice {
+.notice {
   color: #e61019;
 }
 
@@ -286,6 +286,24 @@ p.indent {
 section div.info {
   //margin-left:20px;
   margin-bottom:20px;
+}
+
+section .pledge {
+  margin-left:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+section .note {
+  margin-left:10px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+section p.download {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left:20px;
 }
 
 section dl {
