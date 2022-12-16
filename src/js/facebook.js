@@ -30,7 +30,8 @@
 			if (date) {
 			    let text = item.message;
 			    let href = item.permalink_url;
-			    html += `<tr><td class="post-date">${date}</td><td><a href="${href}" target="_blank">${text}</a></td></tr>`;
+			    //html += `<tr><td class="post-date">${date}</td><td><a href="${href}" target="_blank">${text}</a></td></tr>`;
+			    html += `<tr><td><dl><dt>${date}</dt><dd><a href="${href}" target="_blank">${text}</a></dd></dl></td></tr>`;
 			    i++;
 			}
 		    }

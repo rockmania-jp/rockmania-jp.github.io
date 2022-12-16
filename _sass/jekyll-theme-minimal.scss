@@ -310,6 +310,21 @@ section dl {
   margin-bottom:20px;
 }
 
+section .posts-list dl {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+section .posts-list dt {
+  color:#727272;
+  font-weight:400;
+}
+
+section .posts-list dd {
+  margin-top: 0.5em;
+  margin-inline-start:20px;
+}
+
 small {
   font-size:12px;
 }
