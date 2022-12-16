@@ -289,10 +289,20 @@ section div.info {
 }
 
 section .pledge {
-  margin-left:10px;
+  //margin-left:10px;
   margin-top:10px;
   margin-bottom:10px;
 }
+
+ul.pledge {
+  padding-inline-start: 15px;
+}
+
+ul.pledge li::marker {
+  //color: #e61019;
+  font-size: 70%;
+}
+
 
 section .note {
   margin-left:10px;
@@ -303,7 +313,7 @@ section .note {
 section p.download {
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left:20px;
+  margin-left:1em;
 }
 
 section dl {
