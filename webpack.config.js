@@ -12,7 +12,7 @@ module.exports = {
     ],
     entry: [
 	path.join(__dirname, "src/js/scale.fix.js"),
-	//path.join(__dirname, "src/js/slider.js"),
+	path.join(__dirname, "src/js/slider.js"),
 	path.join(__dirname, "src/js/insta.js"),
 	path.join(__dirname, "src/js/facebook.js")
     ],
