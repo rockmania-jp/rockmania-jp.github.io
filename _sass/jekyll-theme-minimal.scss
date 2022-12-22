@@ -47,6 +47,10 @@ h5, h6 {
   margin:0px 0px;
 }
 
+header div.title p {
+  margin-left:20px;
+}
+
 .notice {
   color: #e61019;
 }
@@ -455,6 +459,10 @@ h1.teaser-message {
 
   header {
     #padding-right:320px;
+  }
+
+  header div.title p {
+    margin-left:0px;
   }
 
   blockquote.message {
