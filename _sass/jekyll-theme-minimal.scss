@@ -397,6 +397,13 @@ li.social-link-item {
   text-align:center;
 }
 
+.posts-list dd {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -419,7 +426,7 @@ ul.insta-list li {
 ul.insta-list li a p {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   overflow: hidden;
 }
 
