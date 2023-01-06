@@ -2,10 +2,7 @@
 
     const jpDate = function (str) {
 	const date = new Date(str.substr(0, 19) + '+0000');
-	const ret = date.getFullYear() + '/' + ("0" + (date.getMonth() + 1)).slice(-2) + '/' + ("0" + date.getDate()).slice(-2);
-	if (ret > '2022/12/04') {
-	    return ret;
-	}
+	return date.getFullYear() + '/' + ("0" + (date.getMonth() + 1)).slice(-2) + '/' + ("0" + date.getDate()).slice(-2);
 	//return (new Date(str.substr(0, 19) + '+0000')).toLocaleDateString('ja-JP');
 	//const date = new Date(str.substr(0, 19) + '+0000');
 	//return date.toLocaleDateString('ja-JP') + ' ' + date.toLocaleTimeString('ja-JP').substr(0, 5);

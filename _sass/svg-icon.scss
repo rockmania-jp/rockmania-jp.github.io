@@ -7,4 +7,6 @@ $grey-color: #828282 !default;
     fill: #{$grey-color};
     padding-right: 5px;
     vertical-align: text-top;
+    position: relative;
+    top: 1.5px;
 }
