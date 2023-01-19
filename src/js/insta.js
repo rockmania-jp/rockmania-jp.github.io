@@ -13,8 +13,8 @@
 	    let i = 0;
 	    let html = '';
 	    for (let item of json.media.data) {
-		// リールは除く
-		if (item.media_url) {
+		// reelは除く
+		if (!item.permalink.match(/^https:\/\/www\.instagram\.com\/reel\//)) {
 		    if (i < 3) {
 			let url     = item.media_url;
 			let href    = item.permalink;
